@@ -2,10 +2,12 @@ const Footer = () => {
     const view =
         `
             <div>
-                <a href="/">Home</a>
-                <a href="#/notes/">Notas</a>
-                <a href="#/projects/">Projectos</a>
-                <a href="#/social-media/">Redes Sociales</a>
+                <p>GITHUB DE LOS CREADORES DE LA PÁGINA</p>
+            </div>
+            <div>
+                <a href="https://github.com/albertogfm">Alberto Garcia</a>
+                <a href="https://github.com/edlayton1">Eduardo Peralta</a>
+                <a href="https://github.com/Cristobal115UwU">Cristobal Gutierrez</a>
             </div>
         
         `;  

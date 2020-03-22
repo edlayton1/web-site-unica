@@ -329,6 +329,11 @@ div #stlt {
   color: #fff;
 }
 
+.footer div P {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 800px) {
   body {
     padding-top: 80px;
