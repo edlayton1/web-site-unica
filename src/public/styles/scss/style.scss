@@ -327,7 +327,7 @@ div #stlt{
 	justify-content: space-evenly;
 	margin-bottom: 10px;
 }
-.footer div a{;
+.footer div a{
 	text-decoration: none;
 	color:#fff;
 }
@@ -337,6 +337,51 @@ div #stlt{
 	color:#fff;
 	
 }
+.console{
+	margin-top:3%;
+
+}
+.elements1 div{
+	padding-right: 3%;
+	width: 50%;
+}
+span.image1{
+	background: url("../../assets/images/N64.jpg");
+	background-size:cover ;
+	width: 200px;
+	height: 200px;
+	display: $DisplayIcon;
+	margin: 0.5%;
+	margin-right: 15px;
+}
+span.image2{
+	background: url("../../assets/images/X360.jpg");
+	background-size:cover ;
+	width: 200px;
+	height: 200px;
+	display: $DisplayIcon;
+	margin: 0.5%;
+	margin-right: 15px;
+}
+.elements1 .image3{
+	background: url("../../assets/images/Wii.jpeg");
+	background-size:cover ;
+	width: 200px;
+	height: 200px;
+	display: $DisplayIcon;
+	margin: 0.5%;
+	margin-right: 15px;
+}
+span.image4{
+	background: url("../../assets/images/GBC.jpg");
+	background-size:cover ;
+	width: 200px;
+	height: 200px;
+	display: $DisplayIcon;
+	margin: 0.5%;
+	margin-right: 15px;
+}
+
 @media screen and (max-width: 800px) {
 	body {
 		padding-top:80px;
@@ -455,54 +500,7 @@ div #stlt{
 	
 	
 	
-	.photo-block #panel1{
-		background: url("../../assets/images/FI.jpg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 1%;
-	}
-	.photo-block #panel2{
-		background: url("../../assets/images/Ml.jpg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 1%;
-	}
-	.photo-block #panel3{
-		background: url("../../assets/images/P2.jpg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 0.5%;
-	}
-	.photo-block #panel4{
-		background: url("../../assets/images/Vio.jpeg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 0.5%;
-	}
-	.photo-block #panel5{
-		background: url("../../assets/images/SA.jpg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 0.5%;
-	}
-	.photo-block #panel6{
-		background: url("../../assets/images/MSZ.jpg");
-		background-size:cover ;
-		width: 200px;
-		height: 200px;
-		display: $DisplayIcon;
-		margin: 0.5%;
-	}
+	
 	.footer{
 		margin-top:20px;
 		padding-top:20px;
@@ -522,6 +520,52 @@ div #stlt{
 		padding-top:5px;
 		text-decoration: none;
 		color:#fff;
+	}
+	.elements {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.elements div{
+		padding-right: 3%;
+		width: 50%;
+		text-align: justify;
+	}
+	span.image1{
+		background: url("../../assets/images/N64.jpg");
+		background-size:cover ;
+		width: 200px;
+		height: 200px;
+		display: $DisplayIcon;
+		margin: 0.5%;
+		margin-right: 15px;
+	}
+	span.image2{
+		background: url("../../assets/images/X360.jpg");
+		background-size:cover ;
+		width: 200px;
+		height: 200px;
+		display: $DisplayIcon;
+		margin: 0.5%;
+		margin-right: 15px;
+	}
+	.elements .image3{
+		background: url("../../assets/images/Wii.jpeg");
+		background-size:cover ;
+		width: 200px;
+		height: 200px;
+		display: $DisplayIcon;
+		margin: 0.5%;
+		margin-right: 15px;
+	}
+	span.image4{
+		background: url("../../assets/images/GBC.jpg");
+		background-size:cover ;
+		width: 200px;
+		height: 200px;
+		display: $DisplayIcon;
+		margin: 0.5%;
+		margin-right: 15px;
 	}
 }
 
