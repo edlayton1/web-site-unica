@@ -43,7 +43,7 @@ npm i -D eslint eslint-loader standard
 This is a website where you can find 3 sections  
 
 **News**  
-**Top 10 VideoGames**
+**Top 10 VideoGames**  
 **Videogames Consoles**
 
 The news section contains 5 news, only the news title is displayed with a picture related, to see the full report click on the image
