@@ -138,18 +138,108 @@ section#container ul {
   justify-content: center;
 }
 
-section#container .escolar-information {
-  margin-left: 10%;
-  margin-right: 10%;
+.news_one-block {
   background-color: #930017;
-}
-
-.photo-block {
-  background-color: #930017;
-  margin-top: 10%;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 2%;
+}
+
+.news_one-block #tit {
+  background-color: #930017;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+}
+
+.news_one-block #nvidia-photo {
+  background: url("../../assets/images/nvidia.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+#n-vid {
+  display: flex;
+  justify-content: center;
+}
+
+#-text {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.news_two-block {
+  background-color: #930017;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+}
+
+.news_two-block #halo-photo {
+  background: url("../../assets/images/halo.png");
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.news_three-block {
+  background-color: #930017;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+}
+
+.news_three-block #sony-photo {
+  background: url("../../assets/images/sony.png");
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.news_four-block {
+  background-color: #930017;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+}
+
+.news_four-block #cod-photo {
+  background: url("../../assets/images/cod.png");
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.news_five-block {
+  background-color: #930017;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+}
+
+.news_five-block #mario-photo {
+  background: url("../../assets/images/mario.png");
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
 }
 
 .photo-block div {
@@ -157,58 +247,14 @@ section#container .escolar-information {
   justify-content: center;
 }
 
-.photo-block #panel1 {
-  background: url("../../assets/images/FI.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 1%;
+#tlt {
+  color: #2797a1;
 }
 
-.photo-block #panel2 {
-  background: url("../../assets/images/Ml.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 1%;
-}
-
-.photo-block #panel3 {
-  background: url("../../assets/images/P2.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel4 {
-  background: url("../../assets/images/Vio.jpeg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel5 {
-  background: url("../../assets/images/SA.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel6 {
-  background: url("../../assets/images/MSZ.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
+div #stlt {
+  color: #15c74a;
+  text-align: center;
+  margin: 10px;
 }
 
 #social-red {
@@ -488,24 +534,24 @@ span.menu_icon {
   height: 30px;
 }
 
-span.project_icon {
-  background: url(../../assets/icons/project.png) no-repeat center center;
+span.top_icon {
+  background: url(../../assets/icons/top-tres.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;
   display: inline-block;
 }
 
-span.note_icon {
-  background: url(../../assets/icons/note.png) no-repeat center center;
+span.news_icon {
+  background: url(../../assets/icons/news.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;
   display: inline-block;
 }
 
-span.social_icon {
-  background: url(../../assets/icons/social-media.png) no-repeat center center;
+span.console_icon {
+  background: url(../../assets/icons/consola-de-video.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;

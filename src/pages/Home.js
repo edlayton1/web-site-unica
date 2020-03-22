@@ -1,45 +1,29 @@
-const Header = () => {
+const Home = () => {
     const view =
         `
-        <div class="Title"><h1>Moreno Peralta Angel Eduardo</h1></div>
-        <div clas="information-block">
-            <div class="escolar-information">
-                <h4>Estudios previos: Tecnico en Computacion en Escuela Nacional Preparatoria Plantel 2 "Erasmo Castellanos Quinto"</h4>
-                <h4>Estudios Actuales: Ingenieria en Computacion Facultad de Ingenieria UNAM</h4>
-                <h4>Trabajo previo: Servicio Social Metro CDMX y Museo de la Luz UNAM</h4>
-                <h4>Intereses:</h4>
-                <ul>
-                    <li>Tocar el instrumento violin</li>
-                    <li>Jugar videojuegos
-                        <ul>
-                            <li>Plataformas</li>
-                            <li>RPG</li>
-                            <li>Gestion de recursos</li>
-                            <li>JRPG</li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-                <h4>Habilidades: Manejo Espacial, Habilidades Sociales.</h4>
-                <br>
-            </div>
+        <div class="Title"><h1>Noticias del Mundo Gaming</h1></div>
+        <div class="news_one-block">
+            <h1 id="tlt">Nvidia y Asus anuncian el primer monitor de 360Hz</h1>
+            <a href="#/nvidia"><span  id="nvidia-photo"></span></a>
         </div>
-        <div class="photo-block">
-            <div>
-                <span id="panel1"></span>
-                <span id="panel2"></span>
-                <span id="panel3"></span>
-            </div>
-            <div>
-                <span id="panel4"></span>
-                <span id="panel5"></span>
-                <span id="panel6"></span>
-            </div>
-            
+        <div class="news_two-block">
+            <h1 id="tlt">3 Juegos que esperamos en este 2020</h1>
+            <a href="#/halo"><span id="halo-photo"></span></a>
+        </div>
+        <div class="news_three-block">
+            <h1 id="tlt">Sony lanza trailer de 8 minutos de Death Stranding</h1>
+            <a href="#/sony"><span id="sony-photo"></span></a>
+        </div>
+        <div class="news_four-block">
+            <h1 id="tlt">Ya está disponible para descargar ‘Call of Duty: Mobile’ en iOS y Android: ¿El mejor shooter en smartphones?</h1>
+            <a href="#/cod"><span id="cod-photo"></span></a>
+        </div>
+        <div class="news_five-block">
+            <h1 id="tlt">Mario Kart Tour ya está disponible… y acompañado por una suscripción del mismo precio que Apple Arcade</h1>
+            <a href="#/mario"><span id="mario-photo"></span></a>
         </div>
         
         `;  
         return view;
 };
-
-export default Header;
+export default Home;
