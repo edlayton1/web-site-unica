@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <div class="news_five-block">
             <h1 id="tlt">Mario Kart Tour ya está disponible… y acompañado por una suscripción del mismo precio que Apple Arcade</h1>
-            <span id="mario-photo"></span>
+            <a href="#/mario"><span id="mario-photo"></span></a>
         </div>
         
         `;  

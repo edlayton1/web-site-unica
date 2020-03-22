@@ -9,6 +9,8 @@ import Nvidia from "../pages/Nvidia";
 import Halo from "../pages/Halo";
 import Sony from "../pages/Sony";
 import Cod from "../pages/Cod";
+import Mario from "../pages/Mario";
+
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
 
@@ -23,6 +25,7 @@ const routes = {
   "/halo":Halo,  
   "/sony":Sony,
   "/cod": Cod,
+  "/mario": Mario,
 };
 
 const router = async () => {
