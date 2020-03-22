@@ -5,7 +5,7 @@ const Nvidia = () => {
         <div class="news_one-block">
             <h1 id="tlt">Nvidia y Asus anuncian el primer monitor de 360Hz</h1>
             <span id="nvidia-photo"></span>
-            <div id="n-text">
+            <div id="-text">
                 <p>Este monitor es pensando en los eSports, Nvidia trabajo con Asus para poder lograr desarrollar un nuevo “procesador avanzado G-Sync”. El monitor tiene una respuesta de 2.8ms y resolución 1080p.</p>
             </div>
             <div id="n-vid">

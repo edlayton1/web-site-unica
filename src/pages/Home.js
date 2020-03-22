@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <div class="news_three-block">
             <h1 id="tlt">Sony lanza trailer de 8 minutos de Death Stranding</h1>
-            <span id="sony-photo"></span>
+            <a href="#/sony"><span id="sony-photo"></span></a>
         </div>
         <div class="news_four-block">
             <h1 id="tlt">Ya está disponible para descargar ‘Call of Duty: Mobile’ en iOS y Android: ¿El mejor shooter en smartphones?</h1>
