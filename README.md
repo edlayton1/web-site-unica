@@ -1,9 +1,11 @@
-## Project
+## VIDEOGAMES-WEB
 
 ## Developer
 - Moreno Peralta Angel Eduardo.
+- García Figueroa Munguía ALberto
+- García Gutierrez Edgar Cristobal
 
-## Comands
+## Comands to set webpack utilities
 1. Install npm dependencies:
 ```
 npm i
@@ -36,3 +38,12 @@ npm i -D file-loader
 ```
 npm i -D eslint eslint-loader standard
 ```
+
+## Description
+This is a website where you can find 3 sections  
+
+**News**  
+**Top 10 VideoGames**
+**Videogames Consoles**
+
+The news section contains 5 news, only the news title is displayed with a picture related, to see the full report click on the image
