@@ -6,6 +6,7 @@ import Projects from "../pages/Projects";
 import Social from "../pages/Social";
 import Error404 from "../pages/Error404";
 
+
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
 
@@ -15,7 +16,8 @@ const routes = {
   "/": Home,
   "/social-media": Social,
   "/projects": Projects,
-  "/notes": Notes
+  "/notes": Notes,
+
 };
 
 const router = async () => {
