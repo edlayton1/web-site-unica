@@ -488,24 +488,24 @@ span.menu_icon {
   height: 30px;
 }
 
-span.project_icon {
-  background: url(../../assets/icons/project.png) no-repeat center center;
+span.top_icon {
+  background: url(../../assets/icons/top-tres.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;
   display: inline-block;
 }
 
-span.note_icon {
-  background: url(../../assets/icons/note.png) no-repeat center center;
+span.news_icon {
+  background: url(../../assets/icons/news.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;
   display: inline-block;
 }
 
-span.social_icon {
-  background: url(../../assets/icons/social-media.png) no-repeat center center;
+span.console_icon {
+  background: url(../../assets/icons/consola-de-video.png) no-repeat center center;
   background-size: cover;
   width: 15px;
   height: 15px;
