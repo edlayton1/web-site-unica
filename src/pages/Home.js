@@ -1,4 +1,4 @@
-const Header = () => {
+const Home = () => {
     const view =
         `
         <div class="Title"><h1>Noticias del Mundo Gaming</h1></div>
@@ -7,8 +7,8 @@ const Header = () => {
             <a href="#/nvidia"><span  id="nvidia-photo"></span></a>
         </div>
         <div class="news_two-block">
-            <h1 id="tlt">5 Juegos que esperamos en este 2020</h1>
-            <span id="halo-photo"></span>
+            <h1 id="tlt">3 Juegos que esperamos en este 2020</h1>
+            <a href="#/halo"><span id="halo-photo"></span></a>
         </div>
         <div class="news_three-block">
             <h1 id="tlt">Sony lanza trailer de 8 minutos de Death Stranding</h1>
@@ -26,4 +26,4 @@ const Header = () => {
         `;  
         return view;
 };
-export default Header;
+export default Home;

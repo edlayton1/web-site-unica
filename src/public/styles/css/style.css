@@ -163,12 +163,12 @@ section#container ul {
   margin-left: 40%;
 }
 
-.news_one-block #nvidia-vid {
+#n-vid {
   display: flex;
   justify-content: center;
 }
 
-.news_one-block #nvidia-text {
+#-text {
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -251,58 +251,10 @@ section#container ul {
   color: #2797a1;
 }
 
-.photo-block #panel1 {
-  background: url("../../assets/images/FI.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 1%;
-}
-
-.photo-block #panel2 {
-  background: url("../../assets/images/Ml.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 1%;
-}
-
-.photo-block #panel3 {
-  background: url("../../assets/images/P2.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel4 {
-  background: url("../../assets/images/Vio.jpeg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel5 {
-  background: url("../../assets/images/SA.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-}
-
-.photo-block #panel6 {
-  background: url("../../assets/images/MSZ.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
+div #stlt {
+  color: #15c74a;
+  text-align: center;
+  margin: 10px;
 }
 
 #social-red {

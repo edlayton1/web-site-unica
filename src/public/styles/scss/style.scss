@@ -177,12 +177,12 @@ section#container ul {
 	display: $DisplayIcon;
 	margin-left: 40%;	
 }
-.news_one-block #nvidia-vid{
+ #n-vid{
 	display: flex;
 	justify-content: center;
 	
 }
-.news_one-block #nvidia-text{
+#-text{
 	display: flex;
 	justify-content: center;
 	margin: 20px;
@@ -256,56 +256,12 @@ section#container ul {
 #tlt{
 	color: rgba($color: #2797a1, $alpha: 1.0);
 }
+div #stlt{
+	color: rgba($color: #15c74a, $alpha: 1.0);
+	text-align: center;
+	margin: 10px;
+}
 
-
-.photo-block #panel1{
-	background: url("../../assets/images/FI.jpg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 1%;
-}
-.photo-block #panel2{
-	background: url("../../assets/images/Ml.jpg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 1%;
-}
-.photo-block #panel3{
-	background: url("../../assets/images/P2.jpg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 0.5%;
-}
-.photo-block #panel4{
-	background: url("../../assets/images/Vio.jpeg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 0.5%;
-}
-.photo-block #panel5{
-	background: url("../../assets/images/SA.jpg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 0.5%;
-}
-.photo-block #panel6{
-	background: url("../../assets/images/MSZ.jpg");
-	background-size:cover ;
-	width: 200px;
-	height: 200px;
-	display: $DisplayIcon;
-	margin: 0.5%;
-}
 
 
 
