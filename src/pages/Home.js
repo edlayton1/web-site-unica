@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div class="news_four-block">
             <h1 id="tlt">Ya está disponible para descargar ‘Call of Duty: Mobile’ en iOS y Android: ¿El mejor shooter en smartphones?</h1>
-            <span id="cod-photo"></span>
+            <a href="#/cod"><span id="cod-photo"></span></a>
         </div>
         <div class="news_five-block">
             <h1 id="tlt">Mario Kart Tour ya está disponible… y acompañado por una suscripción del mismo precio que Apple Arcade</h1>

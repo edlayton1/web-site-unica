@@ -6,9 +6,9 @@ import Projects from "../pages/Projects";
 import Social from "../pages/Social";
 import Error404 from "../pages/Error404";
 import Nvidia from "../pages/Nvidia";
-import Halo from "../pages/Halo"
-import Sony from "../pages/Sony"
-
+import Halo from "../pages/Halo";
+import Sony from "../pages/Sony";
+import Cod from "../pages/Cod";
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
 
@@ -22,6 +22,7 @@ const routes = {
   "/nvidia":Nvidia,
   "/halo":Halo,  
   "/sony":Sony,
+  "/cod": Cod,
 };
 
 const router = async () => {
