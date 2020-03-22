@@ -138,10 +138,12 @@ section#container ul {
   justify-content: center;
 }
 
-section#container .escolar-information {
+.news_one-block {
+  background-color: #930017;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #930017;
+  border-radius: 2%;
 }
 
 .photo-block {
@@ -155,6 +157,19 @@ section#container .escolar-information {
 .photo-block div {
   display: flex;
   justify-content: center;
+}
+
+.news_one-block #tlt {
+  color: #2797a1;
+}
+
+.news_one-block #nvidia-photo {
+  background: url("../../assets/images/nvidia.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 40%;
 }
 
 .photo-block #panel1 {
