@@ -1,4 +1,3 @@
-export default Header;
 const Header = () => {
     const view =
         `

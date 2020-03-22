@@ -4,7 +4,7 @@ const Header = () => {
         <div class="Title"><h1>Noticias del Mundo Gaming</h1></div>
         <div class="news_one-block">
             <h1 id="tlt">Nvidia y Asus anuncian el primer monitor de 360Hz</h1>
-            <span  id="nvidia-photo"></span>
+            <a href="#/nvidia"><span  id="nvidia-photo"></span></a>
         </div>
         <div class="news_two-block">
             <h1 id="tlt">5 Juegos que esperamos en este 2020</h1>

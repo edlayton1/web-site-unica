@@ -5,7 +5,7 @@ import Notes from "../pages/Notes";
 import Projects from "../pages/Projects";
 import Social from "../pages/Social";
 import Error404 from "../pages/Error404";
-
+import Nvidia from "../pages/Nvidia";
 
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
@@ -17,6 +17,7 @@ const routes = {
   "/social-media": Social,
   "/projects": Projects,
   "/notes": Notes,
+  "/nvidia":Nvidia,
 
 };
 
